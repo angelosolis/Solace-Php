@@ -9,7 +9,7 @@
         <title>Solace</title>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/media/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
 
         <!-- All CSS files -->
         <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css">
