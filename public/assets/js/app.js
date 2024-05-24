@@ -604,18 +604,20 @@
     },
     quantityHandle: function () {
       $(".decrement").on("click", function () {
-        var qtyInput = $(this).closest(".quantity-wrap").children(".number");
-        var qtyVal = parseInt(qtyInput.val());
-        if (qtyVal > 0) {
-          qtyInput.val(qtyVal - 1);
-        }
+          var qtyInput = $(this).closest(".quantity-wrap").children(".number");
+          var qtyVal = parseInt(qtyInput.val());
+          if (qtyVal > 1) {
+              qtyInput.val(qtyVal - 1);
+          }
       });
       $(".increment").on("click", function () {
-        var qtyInput = $(this).closest(".quantity-wrap").children(".number");
-        var qtyVal = parseInt(qtyInput.val());
-        qtyInput.val(parseInt(qtyVal + 1));
+          var qtyInput = $(this).closest(".quantity-wrap").children(".number");
+          var qtyVal = parseInt(qtyInput.val());
+          if (qtyVal < 99) {
+              qtyInput.val(qtyVal + 1);
+          }
       });
-    },
+  },
     filterToggle: function () {
       if ($('.sidebar-widget').length) {
         $(".widget-title-row").on("click", function (e) {

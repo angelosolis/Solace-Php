@@ -63,7 +63,7 @@
                         <div class="ui-header-inner container-fluid"> 
                             <div class="ui-header-col">
                                 <div class="ui-logo"> 
-                                    <a href="index.html">
+                                    <a href="/">
                                         <img src="assets/media/logo.png" class="ui-logo-light" alt="Logo"> <!-- logo light -->
                                         <img src="assets/media/logo.png" class="ui-logo-dark" alt="Logo"> <!-- logo dark -->
                                     </a>
@@ -97,125 +97,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-xxl-6 col-xl-5 col-md-6 ui-menu-nav">
-                                                            <!-- Begin menu list -->
-                                                            <ul class="ui-ol-menu-list">
-
-                                                                <li class="ui-ol-submenu-wrap active">
-                                                                    <div class="ui-ol-submenu-trigger">
-                                                                        <a href="#">Home</a>
-                                                                        <div class="ui-ol-submenu-caret-wrap">
-                                                                            <div class="ui-ol-submenu-caret"></div>
-                                                                        </div> 
-                                                                    </div> 
-                                                                    <div class="ui-ol-submenu">
-                                                                        <ul class="ui-ol-submenu-list">
-                                                                            <li class="active"><a href="index.html">Home 1</a></li>
-                                                                            <li><a href="index-2.html">Home 2</a></li>
-                                                                        </ul>
-                                                                    </div> 
-                                                                </li>
-
-                                                                <li><a href="about.html">About Us</a></li>
-
-                                                                <!-- Begin submenu (submenu master) -->
-                                                                <li class="ui-ol-submenu-wrap">
-                                                                    <div class="ui-ol-submenu-trigger">
-                                                                        <a href="#">Shop</a>
-                                                                        <div class="ui-ol-submenu-caret-wrap">
-                                                                            <div class="ui-ol-submenu-caret"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="ui-ol-submenu">
-                                                                        <ul class="ui-ol-submenu-list">
-            
-                                                                            <!-- Begin submenu -->
-                                                                            <li class="ui-ol-submenu-wrap">
-                                                                                <div class="ui-ol-submenu-trigger">
-                                                                                    <a href="#" class="ui-ol-submenu-link">Product Lists</a>
-                                                                                    <div class="ui-ol-submenu-caret-wrap">
-                                                                                        <div class="ui-ol-submenu-caret"></div>
-                                                                                    </div> 
-                                                                                </div> 
-                                                                                <div class="ui-ol-submenu">
-                                                                                    <ul class="ui-ol-submenu-list">
-                                                                                        <li><a href="shop-list.html">Shop List</a></li>
-                                                                                        <li><a href="shop-grid.html">Shop Grid</a></li>
-                                                                                        <li><a href="shop-grid-left-sidebar.html">Shop Grid (Sidebar Left)</a></li>
-                                                                                        <li><a href="shop-grid-right-sidebar.html">Shop Grid (Sidebar Right)</a></li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li><a href="product-detail.html">Product Detail</a></li>
-                                                                            <!-- Begin submenu -->
-                                                                            <li class="ui-ol-submenu-wrap">
-                                                                                <div class="ui-ol-submenu-trigger">
-                                                                                    <a href="#" class="ui-ol-submenu-link">Product Ordering</a>
-                                                                                    <div class="ui-ol-submenu-caret-wrap">
-                                                                                        <div class="ui-ol-submenu-caret"></div>
-                                                                                    </div> 
-                                                                                </div> 
-                                                                                <div class="ui-ol-submenu">
-                                                                                    <ul class="ui-ol-submenu-list">
-                                                                                        <li><a href="cart.html">Cart</a></li>
-                                                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                                                        <li><a href="order-tracking.html">Order Tracking</a></li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </li>
-                                                                            <!-- End submenu -->
-                                                                            
-                                                                        </ul>
-                                                                    </div> 
-                                                                </li>
-                                                                <!-- End submenu (sub-master) -->
-
-                                                                <!-- Begin submenu (submenu master) -->
-                                                                <li class="ui-ol-submenu-wrap">
-                                                                    <div class="ui-ol-submenu-trigger">
-                                                                        <a href="#">Blogs</a>
-                                                                        <div class="ui-ol-submenu-caret-wrap">
-                                                                            <div class="ui-ol-submenu-caret"></div>
-                                                                        </div> 
-                                                                    </div>
-                                                                    <div class="ui-ol-submenu">
-                                                                        <ul class="ui-ol-submenu-list">
-                                                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                                            <li><a href="blog-grid-left-sidebar.html">Blog Grid (Sidebar Left)</a></li>
-                                                                            <li><a href="blog-grid-right-sidebar.html">Blog Grid (Sidebar Right)</a></li>
-                                                                            <li><a href="blog-list.html">Blog List</a></li>
-                                                                            <li><a href="blog-detail.html">Blog Detail</a></li>
-                                                                        </ul>
-                                                                    </div> 
-                                                                </li>
-                                                                <!-- End submenu (sub-master) -->
-
-                                                                <!-- Begin submenu (submenu master) -->
-                                                                <li class="ui-ol-submenu-wrap">
-                                                                    <div class="ui-ol-submenu-trigger">
-                                                                        <a href="#">Pages</a>
-                                                                        <div class="ui-ol-submenu-caret-wrap">
-                                                                            <div class="ui-ol-submenu-caret"></div>
-                                                                        </div> 
-                                                                    </div>
-                                                                    <div class="ui-ol-submenu">
-                                                                        <ul class="ui-ol-submenu-list">
-                                                                            <li><a href="menu.html">Menu</a></li>
-                                                                            <li><a href="team.html">Team</a></li>
-                                                                            <li><a href="team-detail.html">Team Detail</a></li>
-                                                                            <li><a href="login.html">Login</a></li>
-                                                                            <li><a href="signup.html">Signup</a></li>
-                                                                            <li><a href="404.html">404 Page</a></li>
-                                                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                                        </ul>
-                                                                    </div> 
-                                                                </li>
-                                                                <!-- End submenu (sub-master) -->
-            
-                                                                <li><a href="contact-us.html">Contact</a></li>
-            
-                                                            </ul>
-                                                            <!-- End menu list -->
+                                                            @include('layouts.menuoption')
                                                         </div>
                                                         <div class="col-xxl-3 col-xl-3 col-md-6 d-md-block d-none">
                                                             <div class="company-info">
@@ -253,9 +135,11 @@
                                     @auth
                                         <a href="" class="ui-header-tools-item"><i class="fa-regular fa-user"></i></a>
                                     @else
-                                        <a href="" class="ui-header-tools-item"><i class="fa-regular fa-user"></i></a>
+                                        <a href="{{ route('login') }}" class="ui-header-tools-item"><i class="fa-regular fa-user"></i></a>
                                     @endauth
-                                    <a href="javascript:;" class="ui-header-tools-item cart-button"><i class="fa-regular fa-cart-shopping"></i></a>
+                                    @auth
+                                    <a href="/cart" class="ui-header-tools-item"><i class="fa-regular fa-cart-shopping"></i></a>
+                                    @endauth 
                                     @auth
                                     <form method="POST" action="{{ route('logout') }}">
                                     @csrf
@@ -271,19 +155,25 @@
                     <!-- Header End -->
 
                     <div class="content">
-                        <div class="text-block">
-                            <p class="eyebrow ">— Something Spicy</p>
-                            <div class="title-block">
-                                <h1 class="banner-title mb-16">Munch Crunch <br> Grillhouse</h1>
-                                <img src="assets/media/vector/text-effect.png" class="text-effect" alt="">
-                            </div>
-                            <p class="description">Lorem ipsum dolor sit amet consectetur. Congue purus <br> cursus ac aliquet eget enim est. Nunc.</p>
-                            <div class="order">
-                                <a href="cart.html" class="cus-btn primary-banner">Order Now</a>
-                                <span class="h4">$240.00</span>
-                            </div>
-                            <img src="assets/media/banner/banner-1/elements-1.png" alt="" class="element-vector">
+                    <div class="text-block">
+                    <p class="eyebrow ">{{-- Randomized inline code --}}
+                        &#x2014; {{ $randomText }}
+                    </p>
+                        <div class="title-block">
+                            <h1 class="banner-title mb-16" style="font-size: 58px">{{ $randomProduct->name }}</h1>
+                            <img src="assets/media/vector/text-effect.png" class="text-effect" alt="">
                         </div>
+                        <p class="description">{{ $randomProduct->description }}</p>
+                        <div class="order">
+                        <form action="{{ route('cart.add') }}" method="POST" style="display: inline;">
+                            @csrf
+                            <input type="hidden" name="product_id" value="{{ $randomProduct->id }}">
+                            <input type="hidden" name="quantity" value="1"> <!-- Default quantity is 1 -->
+                            <button type="submit" class="cus-btn primary-banner">Order Now</button>
+                        </form>
+                            <span class="h4">${{ $randomProduct->price }}</span>
+                        </div>
+                    </div>
                     </div>
                     <div class="image-block">
                         <div class="images">
